@@ -1,5 +1,5 @@
 baseurl = "https://qawarrior.github.io"
-title = "QAWarrior Freelance Developer"
+title = "Paul Cassidy Software Developer"
 copyright = "&copy; 2016 Paul H Cassidy"
 theme = "academic"
 enableEmoji = true
@@ -19,10 +19,10 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Paul H Cassidy"
-  role = "Software Developer and Tester"
-  organization = "Warrior Works Consulting"
-  organization_url = ""
+  name = "Paul Cassidy"
+  role = "Development and Testing"
+  organization = "Warrior IT Services"
+  organization_url = "https://warrioritservices.github.io"
   avatar = "myself.jpg"
   email = "qawarrior@gmail.com"
   address = "PO Box 547, Altaville, California, 95221, USA"
@@ -125,17 +125,17 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:it+qawarrior@gmail.com"
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/qawaryr"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/qawarrior"
 
 
 # Navigation Links
@@ -149,11 +149,6 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
-
-[[menu.main]]
   name = "Posts"
   url = "#posts"
   weight = 3
@@ -164,8 +159,8 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Training"
+  url = "#training"
   weight = 5
 
 [[menu.main]]
