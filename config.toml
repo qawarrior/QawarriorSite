@@ -123,9 +123,9 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
+    icon = "google-plus"
     icon_pack = "fa"
-    link = "mailto:it+qawarrior@gmail.com"
+    link = "//plus.google.com/+PaulCassidy1970"
 
   [[params.social]]
     icon = "twitter"
@@ -136,7 +136,11 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/qawarrior"
-
+  
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/qawarrior"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -164,9 +168,14 @@ defaultContentLanguageInSubdir = false
   weight = 5
 
 [[menu.main]]
+  name = "Books"
+  url = "#books"
+  weight = 6
+  
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
