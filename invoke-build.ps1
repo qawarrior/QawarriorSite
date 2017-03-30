@@ -11,7 +11,7 @@ $expressions = @(
     "git add --all", 'git commit -m "Updated Site"', 
     'git push origin master')
 
-$( Get-ChildItem -Path $publishDir -Recurse -Force -Exclude $excludePattern ).FullName |
+$( Get-ChildItem -Path $publishDir -Recurse -Exclude $excludePattern ).FullName |
 Remove-Item -Recurse -Force -ErrorAction 'SilentlyContinue'
 
 $expressions |
