@@ -14,14 +14,9 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+This is a list of talks and trainings I have lead. These trainings were given at various venues like Meetup's and Code Camps:
 
-I am a teaching instructor for the following courses at University X:
-
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- PowerShell Toolmaking: 12 week training on toolmaking best practices
+- Introduction to Raven Database: Installing and using the NoSQL document database for the .net framework
+- Software Testing With PowerShell and Boo: Scripting the .net framework to create black box test applications
+- Introduction to PowerShell: Getting started with Microsoft's automation shell and scripting language

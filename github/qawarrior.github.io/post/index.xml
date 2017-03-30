@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Paul Cassidy Software Developer</title>
+    <link>https://qawarrior.github.io/post/index.xml</link>
+    <description>Recent content in Posts on Paul Cassidy Software Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Paul H Cassidy</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Golang And Why It Rules</title>
+      <link>https://qawarrior.github.io/post/golang-and-why-it-rules/</link>
+      <pubDate>Mon, 20 Mar 2017 11:49:12 -0700</pubDate>
+      
+      <guid>https://qawarrior.github.io/post/golang-and-why-it-rules/</guid>
+      <description>&lt;p&gt;Googles Go (golang) is a radically different language that is so fun to use. It ROCKS!!!!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

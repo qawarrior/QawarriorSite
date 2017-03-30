@@ -13,27 +13,79 @@ weight = 1
 [interests]
   interests = [
     "Web Services",
-    "Networking",
+    "Computer Networking",
     "Test Automation",
     "SDLC",
-    "Build and Release Engineering"
+    "Build Automation",
+    "Release Management",
+    "Distributed Computing",
+    "PowerShell",
+    "Golang",
+    "HTML",
+    "CSS",
+    "Javascript"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "Software Testers Bootcamp"
+  institution = "Construx"
+  year = 2007
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "Project Management For Developers"
+  institution = "Construx"
+  year = 2008
+
+[[education.courses]]
+  course = "10x Software Development"
+  institution = "Construx"
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "Scrum Master Bootcamp"
+  institution = "Construx"
+  year = 2010
+
+[[education.courses]]
+  course = "Python Complete"
+  institution = "Foothill Community College"
+  year = 2005
+
+[[education.courses]]
+  course = "PowerShell Summit"
+  institution = "PowerShell.org"
+  year = 2013
+
+[[education.courses]]
+  course = "PowerShell Summit"
+  institution = "PowerShell.org"
+  year = 2014
+
+[[education.courses]]
+  course = "C# 4.0"
+  institution = "Foothill Community College"
+  year = 2010
+
+[[education.courses]]
+  course = "C# and the Task Parallel Library"
+  institution = "Foothill Community College"
+  year = 2010
+
+[[education.courses]]
+  course = "Source Control and Build Administration"
+  institution = "Plurlsight"
+  year = 2011
+
+[[education.courses]]
+  course = "C# The Async and Await Design Pattern"
+  institution = "Plurlsight"
+  year = 2012
+
+[[education.courses]]
+  course = "Introduction to Micro ORM's in the .net Framework"
+  institution = "Plursight"
+  year = 2013
  
 +++
 
