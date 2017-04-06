@@ -3,22 +3,26 @@
 Param (
 )
 
-$hugoDir = '/github/QawarriorSite'
-$publishDir = '/github/qawarrior.github.io'
+$hugoSource = '/github/QawarriorSite'
+$hugoOutput = '/github/qawarrior.github.io'
 $excludePatterns = '.git/*.*'
 
-function Invoke-GitCmd () {
-    Invoke-Expression -Command 'git checkout master'
-    Invoke-Expression -Command 'git add --all'
-    Invoke-Expression -Command 'git commit -m "Updating Sources"'
-}
-
-Push-Location -Path $publishDir
+Push-Location -Path $hugoSource
 Invoke-Expression -Command 'git checkout master'
-Start-Sleep -Seconds 1
+Invoke-Expression -Command 'git add --all'
+Invoke-Expression -Command 'git commit -m "Updating Sources"'
 Pop-Location
 
-Push-Location -Path $hugoDir
-Invoke-Expression -Command "hugo --destination $publishDir"
+Push-Location -Path $hugoOutput
+Invoke-Expression -Command 'git checkout master'
+Get-ChildItem -Recurse | Remove-Item -Recurse
 Pop-Location
 
+Push-Location -Path $hugoSource
+Invoke-Expression -Command "hugo --destination $hugoOutput"
+Pop-Location
+
+Push-Location -Path $hugoOutput
+Invoke-Expression -Command 'git add --all'
+Invoke-Expression -Command 'git commit -m "Updating Sources"'
+Pop-Location
