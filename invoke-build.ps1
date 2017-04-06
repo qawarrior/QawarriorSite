@@ -18,6 +18,8 @@ Invoke-Expression -Command 'git checkout master'
 Get-ChildItem -Recurse | Remove-Item -Recurse
 Pop-Location
 
+Start-Sleep -Seconds 2
+
 Push-Location -Path $hugoSource
 Invoke-Expression -Command "hugo --destination $hugoOutput"
 Pop-Location
