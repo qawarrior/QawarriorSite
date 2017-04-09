@@ -6,7 +6,7 @@ title = "Books"
 subtitle = ""
 widget = "custom"
 
-weight = 50
+weight = 70
 
 +++
 
