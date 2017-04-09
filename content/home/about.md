@@ -91,4 +91,4 @@ weight = 1
 
 # Biography
 
-Paul Cassidy is a software developer and IT specialist with over 15 years of experience. 
+Paul Cassidy is a software developer and IT specialist with over 15 years of experience. Paul has a great deal of experience in delivering tooling to enable development teams to easily commit, build, install and test new features of the code base. He has worked with many differing technologies.
