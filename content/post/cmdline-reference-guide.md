@@ -17,6 +17,8 @@ math = false
 ### Git Cmds
 
 1. Stage all files for commit - ```git add --all```
+2. Commit to local repo - ```git commit -m "message for commit"```
+3. Push to remote repo - ```git push origin master```
 
 ### Hugo Site Cmds
 
