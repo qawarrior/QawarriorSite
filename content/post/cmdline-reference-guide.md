@@ -10,6 +10,9 @@ math = false
   image = ""
 
 +++
+
+These commands need to be ran from the working directory.
+
 ### Go Tool Cmds
 
 1. Build pkg and all sub-pkgs - ```go build -v ./...```
