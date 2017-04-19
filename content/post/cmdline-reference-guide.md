@@ -1,6 +1,6 @@
 +++
 date = "2017-04-17T10:52:54-07:00"
-title = "Commandline Reference Guide"
+title = "Cmdline Reference Guide"
 tags = []
 highlight = true
 math = false
