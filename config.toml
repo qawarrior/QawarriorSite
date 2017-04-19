@@ -1,3 +1,4 @@
+# Hugo configuration
 baseurl = "https://qawarrior.github.io"
 title = "Paul Cassidy Software Developer"
 copyright = "&copy; 2016 Paul H Cassidy"
