@@ -2,6 +2,7 @@
 title = "Save HTML as DOCX"
 date = 2010-09-10T16:17:00Z
 updated = 2010-09-10T16:17:13Z
+tags = ["Functions", "Powershell", "Projects", "Scripts", "Cmdlets"]
 blogimport = true 
 [author]
 	name = "Paul Cassidy"
