@@ -24,5 +24,5 @@ Now restic uses our defined repo and password to backup the documents directory.
 
 In part 2 I will go over viewing snapshots (restic's name for each backup) and managing snapshots.
 
-Enjoy and Get Command
+Enjoy and Get Command<br>
 Paul H Cassidy (qawarrior)
