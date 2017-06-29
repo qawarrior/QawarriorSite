@@ -30,6 +30,10 @@ Ran from root of git repository. <br>
 ```git push origin master```
 4. Pull from remote repository:<br>
 ```git pull origin master```
+5. Initalize a new Repo<br>
+```git init```
+6. Add a Remote to a Local Repo<br>
+```git remote add origin https://github.com/username/Reponame.git```
 
 ### Hugo Site Commands
 Ran from root of hugo site. <br>
