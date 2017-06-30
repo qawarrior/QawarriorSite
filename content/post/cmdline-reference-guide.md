@@ -14,13 +14,13 @@ math = false
 Theses commands need to be found in the path environment variable.
 
 ### Go Tool Commands
-Ran from the root of the main package. <br>
+Ran from the root of the main package.<br>
 
 1. Build package and all sub-packages:<br>
 ```go build -v ./...```
 
 ### Git Commands
-Ran from root of git repository. <br>
+Ran from root of git repository.<br>
 
 1. Stage all files for commit:<br>
 ```git add --all```
@@ -30,13 +30,13 @@ Ran from root of git repository. <br>
 ```git push origin master```
 4. Pull from remote repository:<br>
 ```git pull origin master```
-5. Initalize a new Repo<br>
+5. Initalize a new Repo:<br>
 ```git init```
-6. Add a Remote to a Local Repo<br>
+6. Add a Remote to a Local Repo:<br>
 ```git remote add origin https://github.com/username/Reponame.git```
 
 ### Hugo Site Commands
-Ran from root of hugo site. <br>
+Ran from root of hugo site.<br>
 
 1. Create a new hugo site template:<br>
 ```hugo new site "site name"```
@@ -46,7 +46,7 @@ Ran from root of hugo site. <br>
 ```hugo```
 
 ### MongoDB Commands
-Ran from the database root unless path is specified in command. <br>
+Ran from the database root unless path is specified in command.<br>
 
 1. Run the server with path to database:<br>
 ```mongod --dbpath .\db```
