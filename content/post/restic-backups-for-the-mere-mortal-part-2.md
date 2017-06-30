@@ -3,7 +3,7 @@ tags = []
 highlight = true
 math = false
 date = "2017-06-29T22:38:12-07:00"
-title = "Restic Bsckups For The Mere Mortal Part Two"
+title = "Restic Backups For The Mere Mortal Part Two"
 +++
 
 This is part 2 of our [Restic](http://github.com/restic/restic) overview. Just for review last time we learned that restic is a command line backup tool written in go. We learned how to create a repo to hold our backups (snapshots). We defined environment variables so restic could aitomatical find our repo and the password for that repo. we backed up our documents directory.
