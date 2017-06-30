@@ -6,7 +6,7 @@ date = "2017-06-29T10:41:28-07:00"
 title = "Restic Bsckups For The Mere Mortal Part One"
 +++
 
-[Restic](http://github.com/restic/restic) is a command line backup tool written in Google go language. This tool totally rocks. You start by defining a backup repository that can be a local file system path, SFTP server, AWS S3, Minio server backed by S3, or various other ways. Restic is open source and has docs on how to expand its capabilities like adding your own backup target perhaps a SQL Database, etc. Lets look at a simple example of creating a local repo for the backups. We asseme that restic is in your path and can be call by name.
+[Restic](http://github.com/restic/restic) is a command line backup tool written in Googles go language. This tool totally rocks. You start by defining a backup repository that can be a local file system path, SFTP server, AWS S3, Minio server backed by S3, or various other ways. Restic is open source and has docs on how to expand its capabilities like adding your own backup target perhaps a SQL Database, etc. Lets look at a simple example of creating a local repo for the backups. We asseme that restic is in your path and can be call by name.
 
 ```restic init --repo F:\Backups```
 
